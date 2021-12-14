@@ -1,10 +1,14 @@
 class DockingStation
   
-  def bikes
-    if bikes > 1
-      puts "True"
+  def availability(availability)
+    if availability >= 1
+      true
     else
-      puts "False"
+      false
     end
+  end
+
+  def release_bike
+    bike = Bike.new
   end
 end

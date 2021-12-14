@@ -1,8 +1,14 @@
-require 'docking_station' do
+require 'docking_station'
 
-describe 'DockingStation' do
+describe DockingStation do
 
-  it “became `True` if number > 1“ do
-    expect(2).to eq(True)
+  it "returns true if number is bigger than 1" do
+    expect(subject.availability(2)).to eq(true)
   end
+
+  it "releases a bike" do
+    expect(subject.release_bike).to be_a(Bike)
+  end
+
+  
 end
