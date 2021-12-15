@@ -16,9 +16,8 @@ As a user,
 So I can find customers,
 I want to search for my customers by their surnames.
 
-Objects:        Messages:
-User      
-Customer        find_by_surname
+Objects: User, Customer    
+Messages:      find_by_surname
 
 User Story 2:
 As a person,
@@ -30,10 +29,8 @@ As a person,
 So that I can use a good bike,
 I'd like to see if a bike is working
 
-Objects:        Messages:
-Person          
-Bike            working?
-DockingStation  releasew_bike
+Objects: Person, Bike,    DockingStation
+Messages:        working? releasew_bike
 
 Bike <-- working? --> true/false
 DockingStation <-- release_bike --> a Bike
