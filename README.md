@@ -1,29 +1,57 @@
-# boris_bikes
+# Boris_Bikes
 
-Motivation
+# Motivation
+Using TDD to translate User Stories into a functiional system.
 
-Build Status
 
-Code Style
+# Build Status
+Project set up, completed initial unit and feature tests, created a bike object
+and made the docking stations able to make a new bike if availability is one or more.
 
-Screenshots
+# Tech/framework used
+A Domain Model, objects and messages.
 
-Tech/framework used
+User Story 1:
+As a user,
+So I can find customers,
+I want to search for my customers by their surnames.
 
-Features
+Objects:        Messages:
+User      
+Customer        find_by_surname
 
-Code Example
+User Story 2:
+As a person,
+So that I can use a bike,
+I'd like a docking station to release a bike.
 
-Installation
+User Story 3:
+As a person,
+So that I can use a good bike,
+I'd like to see if a bike is working
 
-API reference
+Objects:        Messages:
+Person          
+Bike            working?
+DockingStation  releasew_bike
 
-Tests
+Bike <-- working? --> true/false
+DockingStation <-- release_bike --> a Bike
 
-How to use?
+# Features
+- The user can look up a customer using their surname.
+- A person can check if a bike is available at a location of their choice.
+- A person can a check if a bike is working for use.
+- A person can release a bike from a docking station to use.
 
-Contribute
+# Code Example
 
-Credits
+# Installation
 
-Liscense
+# Tests
+
+# How to use?
+
+# Contribute
+
+# Credits
