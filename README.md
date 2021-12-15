@@ -30,7 +30,7 @@ So that I can use a good bike,
 I'd like to see if a bike is working
 
 Objects: Person, Bike,    DockingStation
-Messages:        working? releasew_bike
+Messages: working? releasew_bike
 
 Bike <-- working? --> true/false
 DockingStation <-- release_bike --> a Bike
